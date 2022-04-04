@@ -1,0 +1,50 @@
+/* .page_content {
+  grid-area: c;
+} */
+/* .walpaper img {
+  object-fit: fill;
+  max-width: 100px;
+} */
+.walpaper {
+  width: 60vw;
+  height: 20ch;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center; /*центрируем элемент по горизонтали */
+  align-items: center;
+}
+
+.background {
+  width: 60vw;
+  height: 20ch;
+}
+.ava {
+  position: absolute;
+  margin-top: 7ch;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100px;
+  border: 1px solid aliceblue;
+  background-color: linear-gradient(
+    to left,
+    rgb(18, 101, 117),
+    rgb(18, 117, 89),
+    rgb(18, 101, 117)
+  );
+}
+
+section {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1rem;
+  vertical-align: top;
+}
+
+.userInfo {
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1rem;
+}
