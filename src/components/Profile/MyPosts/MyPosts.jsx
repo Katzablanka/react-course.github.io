@@ -11,6 +11,7 @@ const MyPosts=()=>{
           <textarea name="" id="" ></textarea>
           <button>add post</button>
           <button>remove</button>
+            <Post message='das ist die Prüfung von GitHub' like='20'/>
          <Post message='ich bin Anna und ich bin 19 Jahre alt' like='20'/>
          <Post message='Heute es ist windig' like='50'/>
          <Post message='Ich habe kein Lust' like='45'/>
