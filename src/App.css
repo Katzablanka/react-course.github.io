@@ -14,7 +14,7 @@
   justify-content: center;
 }
 
-button {
+/* button {
   background: linear-gradient(
     to left,
     rgb(18, 101, 117),
@@ -51,7 +51,7 @@ button:before {
   );
   border-radius: 10px;
   transition: all 2s ease;
-}
+} */
 
 button:hover:before {
   width: 100%;

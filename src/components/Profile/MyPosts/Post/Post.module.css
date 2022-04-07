@@ -1,35 +1,37 @@
 .item {
-  display: grid;
-  margin-bottom: 2rem;
-  margin-right: 0;
+  /* display: grid; */
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  /* margin-right: 0;
   grid-template-areas: "a t";
   grid-template-columns: 3rem 1fr;
-  grid-gap: 0.4rem;
+  grid-gap: 0.4rem; */
 }
 
 .comentAva {
   grid-area: a;
-  width: 3rem;
-  height: 3rem;
+  /* width: 3rem;
+  height: 3rem; */
   border-radius: 100px;
 }
 
 .comentText {
-  grid-area: t;
+  /* grid-area: t; */
   background-color: aliceblue;
   border-radius: 10px;
-  width: auto;
+  /* width: max-content; */
+  height: max-content;
   padding: 0.5rem;
   text-align: justify;
 }
 
 span {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to left,
     rgb(18, 101, 117),
     rgb(18, 117, 89),
     rgb(18, 101, 117)
-  );
+  ); */
   text-align: right;
 }
 

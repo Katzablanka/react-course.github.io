@@ -32,3 +32,38 @@ h2 {
 h3 {
   text-transform: uppercase;
 }
+
+/* button {
+  background: linear-gradient(to left,
+      rgba(18, 101, 117, 0.740),
+      rgba(18, 117, 89, 0.740),
+      rgba(18, 101, 117, 0.740));
+  color: aliceblue;
+  border: none;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-size: 200% auto;
+  transition: 0.5s;
+  padding: 0.5rem 0.3rem;
+  margin: 0.5rem 0.3rem;
+  border-radius: 10px;
+  border-color: none;
+  text-decoration: none;
+  transition: all 500ms ease;
+  box-sizing: border-box;
+} */
+
+button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  background: linear-gradient(to right,
+      rgb(18, 101, 117),
+      rgb(18, 117, 89),
+      rgb(18, 101, 117));
+  border-radius: 10px;
+  transition: all 2s ease;
+}

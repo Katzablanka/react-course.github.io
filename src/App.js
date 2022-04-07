@@ -21,7 +21,6 @@ const App = () => {
           <Route component={News} path="/news" />
           <Route component={Music} path="/music" />
           <Route component={Settings} path="/settings" />
-          <Profile />
         </div>
       </div>
     </BrowserRouter>

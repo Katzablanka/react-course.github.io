@@ -2,8 +2,11 @@
   "name": "katza-1",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://katzablanka.github.io/react-course.github.io/",
+  "homepage": "https://katzablanka.github.io/react-course.github.io/",
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.3",
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",

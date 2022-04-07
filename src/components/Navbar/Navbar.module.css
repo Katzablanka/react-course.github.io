@@ -31,8 +31,7 @@ a {
 }
 
 a.active {
-  /* -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate; */
+ 
   text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 15px rgb(35, 228, 160),
     0 0 30px rgb(69, 165, 250), 0 0 20px rgb(9, 250, 182),
     0 0 35px rgb(29, 191, 145), 0 0 40px rgb(2, 213, 255),
@@ -40,21 +39,11 @@ a.active {
 }
 
 a:hover {
-  /* -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate; */
+ 
   text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(35, 228, 160),
     0 0 15px rgb(69, 165, 250), 0 0 20px rgb(9, 250, 182),
     0 0 35px rgb(29, 191, 145), 0 0 40px rgb(2, 213, 255),
     0 0 50px rgb(27, 214, 252), 0 0 75px rgb(0, 213, 255);
 }
-/* 
-@keyframes neon1 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff1177,
-      0 0 70px #ff1177, 0 0 80px #ff1177, 0 0 100px #ff1177, 0 0 150px #ff1177;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff1177,
-      0 0 35px #ff1177, 0 0 40px #ff1177, 0 0 50px #ff1177, 0 0 75px #ff1177;
-  }
-} */
+
+
