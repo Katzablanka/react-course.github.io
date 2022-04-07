@@ -45,7 +45,7 @@ const Navbar = () => {
       </nav> */}
 
       {/* ////////// */}
-      <Paper sx={{ width: 220 }}>
+      <Paper>
         <MenuList className={c.navbar}>
           <MenuItem>
             <NavLink to="/profile" activeClassName={c.active}>
