@@ -6,6 +6,7 @@ import Divider from '@mui/material/Divider';
 import MenuList from '@mui/material/MenuList';
 import MenuItem from '@mui/material/MenuItem';
 import ListItemText from '@mui/material/ListItemText';
+import { Paper } from '@mui/material';
 
 const Navbar = () => {
   return (
@@ -44,43 +45,38 @@ const Navbar = () => {
       </nav> */}
 
       {/* ////////// */}
-
-      <MenuList className={c.navbar}>
-        <MenuItem>
-          <ListItemText>
+      <Paper sx={{ width: 220 }}>
+        <MenuList className={c.navbar}>
+          <MenuItem>
             <NavLink to="/profile" activeClassName={c.active}>
               Profile
             </NavLink>
-          </ListItemText>
-        </MenuItem>
-        <MenuItem>
-          <ListItemText>
+          </MenuItem>
+          <MenuItem>
             <NavLink to="/messages" activeClassName={c.active}>
               Messages
             </NavLink>
-          </ListItemText>
-        </MenuItem>
-        <MenuItem>
-          <ListItemText>
+          </MenuItem>
+          <MenuItem>
             <NavLink to="/news" activeClassName={c.active}>
               News
             </NavLink>
-          </ListItemText>
-        </MenuItem>
-        <MenuItem>
-          <NavLink to="/music" activeClassName={c.active}>
-            Music
-          </NavLink>
-        </MenuItem>
-        <Divider className={c.item} />
-        <MenuItem>
-          <ListItemText>
-            <NavLink to="/settings" activeClassName={c.active}>
-              Settings
+          </MenuItem>
+          <MenuItem>
+            <NavLink to="/music" activeClassName={c.active}>
+              Music
             </NavLink>
-          </ListItemText>
-        </MenuItem>
-      </MenuList>
+          </MenuItem>
+          <Divider className={c.item} />
+          <MenuItem>
+            <ListItemText>
+              <NavLink to="/settings" activeClassName={c.active}>
+                Settings
+              </NavLink>
+            </ListItemText>
+          </MenuItem>
+        </MenuList>
+      </Paper>
 
       {/* ////////// */}
     </div>

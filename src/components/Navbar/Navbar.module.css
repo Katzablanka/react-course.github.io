@@ -1,10 +1,10 @@
 .navbar {
-  grid-area: n;
+  /* grid-area: n; */
   background-color: aliceblue;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
-  padding: 0.6rem;
-  line-height: 2rem;
+  /* padding: 0.6rem;
+  line-height: 2rem; */
   color: rgb(30, 48, 62);
 }
 
