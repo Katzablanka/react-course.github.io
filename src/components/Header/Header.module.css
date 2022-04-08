@@ -9,6 +9,9 @@
   );
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  position: sticky;
+    z-index: 100;
+  top: 10px;
 }
 .header img {
   width: 47px;

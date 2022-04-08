@@ -8,6 +8,12 @@
   color: rgb(30, 48, 62);
 }
 
+.Paperr{
+  position:sticky;
+  top: 3.6em;
+  z-index: 100;
+}
+
 .item {
   width: 3fr;
   height: 1px;

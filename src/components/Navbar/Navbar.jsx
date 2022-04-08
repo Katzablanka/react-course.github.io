@@ -45,7 +45,7 @@ const Navbar = () => {
       </nav> */}
 
       {/* ////////// */}
-      <Paper>
+      <Paper className={c.Paperr}>
         <MenuList className={c.navbar}>
           <MenuItem>
             <NavLink to="/profile" activeClassName={c.active}>
