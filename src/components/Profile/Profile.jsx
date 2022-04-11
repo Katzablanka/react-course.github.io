@@ -5,7 +5,7 @@ import s from './Profile.module.css';
 const Profile = () => {
   return (
     <div className={s.page_content}>
-      <section className={s.userInfo}>
+      <section>
         <div className={s.walpaper}>
           <img
             className={s.ava}
@@ -19,15 +19,13 @@ const Profile = () => {
           />
         </div>
       </section>
-      <section>
-        <div>
-          <section className={s.userInfo}>
-            <div>designer from San Francisco 23 y. o.</div>
-          </section>
-          <section>
-            <MyPosts />
-          </section>
-        </div>
+      <section className={s.userPage}>
+        <section className={s.userInfo}>
+          <div>designer from San Francisco 23 y. o.</div>
+        </section>
+        <section>
+          <MyPosts />
+        </section>
       </section>
     </div>
   );

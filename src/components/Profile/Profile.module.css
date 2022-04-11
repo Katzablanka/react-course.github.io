@@ -11,20 +11,27 @@
   width: 60vw;
   height: 20ch;
   background-size: cover;
-  overflow: hidden;
+  /* overflow: hidden; */
   text-align: center;
+  position: relative;
   display: flex;
-  justify-content: center; /*центрируем элемент по горизонтали */
+justify-content: center;   /* центрируем элемент по горизонтали */
   align-items: center;
+  z-index: 1;
+ 
 }
 
 .background {
   width: 60vw;
   height: 20ch;
+  /* position: relative; */
 }
 .ava {
-position: absolute;
-  margin-top: 7ch;
+  /* -o-object-fit: cover;
+  object-fit: cover; */
+  position: absolute;
+  /* z-index: 1; */
+  margin-top: 6ch;
   width: 7rem;
   height: 7rem;
   border-radius: 100px;
@@ -48,5 +55,12 @@ section {
   text-align: center;
   width: 100%;
   justify-content: center;
+  padding-top: 1rem;
   
 }
+/* .userPage{
+position: relative;
+}
+.userDesign{
+position: absolute;
+} */
