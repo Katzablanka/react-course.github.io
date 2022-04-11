@@ -7,15 +7,16 @@
     rgb(18, 117, 89),
     rgb(18, 101, 117)
   );
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border-top-right-radius: 0.7rem;
+  border-top-left-radius: 0.7rem;
   position: sticky;
     z-index: 100;
-  top: 10px;
+  /* top: 1vh; */
+  /* height: 2.8rem; */
 }
 .header img {
-  width: 47px;
-  height: 35px;
+  width: 2.6rem;
+  height: 2.3rem;
   padding-top: 0.3rem;
   padding-left: 0.3rem;
 }

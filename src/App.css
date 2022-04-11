@@ -1,17 +1,26 @@
+
 .app-wrapper {
   display: grid;
-  margin-top: 1.5ch;
+  padding-top: 2vh;
   margin-left: 10vw;
   margin-right: 10vw;
   width: 80vw;
+  /* position: fixed; */
+  /* overflow: scroll; */
   grid-template-areas:
     "h h"
     "n c";
   grid-template-rows: 5ch 1fr;
   grid-template-columns: 3fr 9fr;
   font-family: "Montserrat", sans-serif;
-  grid-gap: 3px;
+  grid-gap: 0.3rem;
   justify-content: center;
+ max-height: 100%;
+  border-bottom-style: dashed;
+  border-color: aqua;
+
+/* scroll-padding-top: 300px; */
+  
 }
 
 /* button {
@@ -63,6 +72,21 @@ button:hover:before {
 
 .app-wrapper-content {
   grid-area: c;
+  /* height: 80vh; */
+  /* overflow: scroll; */
+  
 }
+
+.app-skroll-part{
+
+/* max-height: calc(100% - var(--fill-available)); */
+border-bottom-style: dashed;
+height: calc(100vh - 4.5rem);
+overflow: scroll;
+
+
+
+}
+
 
 

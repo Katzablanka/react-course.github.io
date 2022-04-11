@@ -10,7 +10,7 @@
 
 .Paperr{
   position:sticky;
-  top: 3.6em;
+  /* top: 3.6em; */
   z-index: 100;
 }
 
