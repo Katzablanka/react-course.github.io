@@ -31,7 +31,7 @@ justify-content: center;   /* центрируем элемент по гори�
   object-fit: cover; */
   position: absolute;
   /* z-index: 1; */
-  margin-top: 6ch;
+  margin-top: 7ch;
   width: 7rem;
   height: 7rem;
   border-radius: 100px;

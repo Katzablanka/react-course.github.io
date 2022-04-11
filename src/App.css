@@ -15,9 +15,9 @@
   font-family: "Montserrat", sans-serif;
   grid-gap: 0.3rem;
   justify-content: center;
- max-height: 100%;
-  border-bottom-style: dashed;
-  border-color: aqua;
+ max-height: 98vh;
+  /* border-bottom-style: dashed;
+  border-color: aqua; */
 
 /* scroll-padding-top: 300px; */
   
@@ -80,8 +80,8 @@ button:hover:before {
 .app-skroll-part{
 
 /* max-height: calc(100% - var(--fill-available)); */
-border-bottom-style: dashed;
-height: calc(100vh - 4.5rem);
+/* border-bottom-style: dashed; */
+height: calc(100vh - 2vh - 0.4rem - 44px);
 overflow: scroll;
 
 
