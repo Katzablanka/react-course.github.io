@@ -1,36 +1,4 @@
 
-@media screen and (max-width: 750px) {
-
-  .app-wrapper {
-    display:grid;
-    padding-top: 2vh;
-    margin-left: 3vw !important;
-    margin-right: 3vw  !important;
-    width: 94vw !important;
-    height: 20%;
-    grid-template-areas:
-    "header header" !important
-    "contentt contentt" !important;
-    grid-template-rows: 5ch 1fr !important;
-    grid-template-columns: auto !important;
-    
-  }
-  .app-skroll-part {
-   grid-area: contentt;
-   width: 100%;
-  
-  }
-  .grid-header {
-    grid-area: header;
-  
-  }
-  /* .grid-navbar{
-    
-  }
-   */
-  
-  
-}
 
 
 .app-wrapper {
@@ -134,6 +102,49 @@ button:hover:before {
 height: calc(100vh - 2vh - 0.4rem - 44px);
 overflow: scroll;
 
+
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+  .app-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 5vh 1fr;
+    grid-gap: 0rem;
+    padding-top: 3vh;
+    margin-left: 3vw ;
+    margin-right: 3vw ;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    width: 94vw ;
+/*    
+  grid-template-areas: 
+  "header contentt ";
+  grid-template-rows: 5ch 1fr; */
+  
+
+  }
+  .app-wrapper-content{
+  
+   padding-top: 0.3rem;
+  }
+
+  .app-skroll-part {
+    grid-area: contentt;
+    
+
+  }
+
+  .grid-header {
+    grid-row: 1;
+
+  }
+
+  
 
 
 }

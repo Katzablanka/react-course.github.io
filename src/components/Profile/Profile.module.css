@@ -8,6 +8,7 @@
   max-width: 100px;
 } */
 
+
 .walpaper {
   width: 60vw;
   height: 20ch;
@@ -66,3 +67,7 @@ position: relative;
 .userDesign{
 position: absolute;
 } */
+@media screen and (max-width: 750px) {
+  .walpaper{width: 100%;}
+  .background{width: 100%;}
+}
