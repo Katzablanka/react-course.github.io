@@ -1,5 +1,5 @@
 .header {
-  grid-area: h;
+  /* grid-area: h; */
   background-image: linear-gradient(
     to left,
     rgb(30, 48, 62),

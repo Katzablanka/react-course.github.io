@@ -1,4 +1,38 @@
 
+@media screen and (max-width: 750px) {
+
+  .app-wrapper {
+    display:grid;
+    padding-top: 2vh;
+    margin-left: 3vw !important;
+    margin-right: 3vw  !important;
+    width: 94vw !important;
+    height: 20%;
+    grid-template-areas:
+    "header header" !important
+    "contentt contentt" !important;
+    grid-template-rows: 5ch 1fr !important;
+    grid-template-columns: auto !important;
+    
+  }
+  .app-skroll-part {
+   grid-area: contentt;
+   width: 100%;
+  
+  }
+  .grid-header {
+    grid-area: header;
+  
+  }
+  /* .grid-navbar{
+    
+  }
+   */
+  
+  
+}
+
+
 .app-wrapper {
   display: grid;
   padding-top: 2vh;
@@ -22,6 +56,18 @@
 /* scroll-padding-top: 300px; */
   
 }
+
+.grid-header {
+  grid-area: h;
+
+}
+
+.grid-navbar {
+  grid-area: n;
+  
+   
+}
+
 
 /* button {
   background: linear-gradient(
@@ -62,6 +108,10 @@ button:before {
   transition: all 2s ease;
 } */
 
+
+
+
+/* /////////////////////////////////////////////////////// */
 button:hover:before {
   width: 100%;
 }

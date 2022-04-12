@@ -1,17 +1,19 @@
 .item {
-  /* display: grid; */
+  /* display: -moz-grid-line; */
   margin-bottom: 1rem;
   margin-top: 1rem;
-  /* margin-right: 0;
+  margin-right: 0;
+  /* width: 100%;
   grid-template-areas: "a t";
-  grid-template-columns: 3rem 1fr;
-  grid-gap: 0.4rem; */
+  grid-template-rows: 3rem 1fr;
+  grid-gap: 0.1rem; */
 }
 
 .comentAva {
-  grid-area: a;
-  /* width: 3rem;
-  height: 3rem; */
+  /* grid-area: a; */
+   width: 3rem;
+  height: 3rem; 
+  
   border-radius: 100px;
 }
 

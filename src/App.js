@@ -22,8 +22,14 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="app-wrapper">
-        <Header />
-        <Navbar />
+        <div className="grid-header">
+          <Header className="grid-header" />
+        </div>
+        <div className="grid-navbar">
+          <Navbar className="grid-navbar" />
+        </div>
+        {/* <Header />
+        <Navbar /> */}
 
         <div className="app-wrapper-content">
           <div className="app-skroll-part">

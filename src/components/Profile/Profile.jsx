@@ -12,6 +12,7 @@ const Profile = () => {
             src="https://cs9.pikabu.ru/post_img/big/2016/11/26/12/1480192824129447047.jpg"
             alt="avatarka"
           />
+
           <img
             className={s.background}
             src="https://groknation.com/wp-content/uploads/2018/09/apertism-536752-unsplash.jpg"

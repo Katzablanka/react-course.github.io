@@ -1,7 +1,8 @@
-.page_content {
+/* .page_content {
   grid-area: c;
 
-}
+} */
+
 /* .walpaper img {
   object-fit: fill;
   max-width: 100px;
@@ -32,9 +33,9 @@ justify-content: center;   /* центрируем элемент по гори�
   position: absolute;
   /* z-index: 1; */
   /* margin-top: 7ch; */
-  top: 10ch;
-  width: 7rem;
-  height: 7rem;
+  top: 12ch;
+  width: 10ch;
+  height: auto;
   border-radius: 100px;
   border: 1px solid aliceblue;
   background-color: linear-gradient(

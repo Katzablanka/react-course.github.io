@@ -16,7 +16,10 @@ const Post = (props) => {
       </div> */}
       <Grid container spacing={1}>
         <Grid item xs={1}>
-          <Avatar src="https://img-fotki.yandex.ru/get/9227/50652515.11/0_9f830_e9979222_L.jpg"></Avatar>
+          <Avatar
+            className={s.comentAva}
+            src="https://img-fotki.yandex.ru/get/9227/50652515.11/0_9f830_e9979222_L.jpg"
+          ></Avatar>
         </Grid>
         <Grid item xs={11}>
           <div className={s.comentText}>

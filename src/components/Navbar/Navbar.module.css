@@ -1,5 +1,18 @@
+
+@media screen and (max-width: 750px) {
+
+  .Paperr {
+    display: none;
+    grid-area: nichts;
+ 
+  }
+}
+
+
+
+
 .navbar {
-  /* grid-area: n; */
+ 
   background-color: aliceblue;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
@@ -9,6 +22,7 @@
 }
 
 .Paperr{
+  grid-area: n;
   position:sticky;
   /* top: 3.6em; */
   z-index: 100;
