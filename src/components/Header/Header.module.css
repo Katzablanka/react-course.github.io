@@ -34,10 +34,10 @@
 @media screen and (max-width: 750px) {
  .header img{
    /* margin-left: 90%; */
-   /* padding: 0rem;
-   grid-area: i; */
-   order: 2;
-   float: left
+   /* padding: 0rem; */
+   grid-area: i;
+   /* order: 2;
+   float: left */
 
   ;
   }
@@ -45,16 +45,18 @@
     position: absolute; 
   } */
   .menuButton{
-   order: 1;
+   /* order: 1; */
+   grid-area: b;
+
   }
   .header{
-    /* display: grid;
+    display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     grid-template-areas: "b . i";
-    grid-gap: 0rem; */
-    align-items: center;
+    grid-gap: 0rem;
+    /* align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; */
 
 
   }
