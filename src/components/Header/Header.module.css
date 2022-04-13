@@ -34,22 +34,29 @@
 @media screen and (max-width: 750px) {
  .header img{
    /* margin-left: 90%; */
-   grid-area: i;
+   /* padding: 0rem;
+   grid-area: i; */
+   order: 2;
+   float: left
+
+  ;
   }
   /* .container{
     position: absolute; 
   } */
+  .menuButton{
+   order: 1;
+  }
   .header{
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     grid-template-areas: "b . i";
-    grid-gap: 0rem;
+    grid-gap: 0rem; */
     align-items: center;
+    display: flex;
+    flex-direction: row;
+
+
   }
-  .menuButton{
-   grid-area: b;
-   background: black;
-   /* display: inline-block; */
-   /* align-items:flex-start; */
-  }
+  
 }

@@ -124,25 +124,26 @@ overflow: scroll;
     margin-top: 0rem;
     width: 94vw ;
    
-  grid-template-areas: 
-  "header contentt ";
+  /* grid-template-areas: 
+  "header contentt "; */
 
   
 
   }
   .app-wrapper-content{
   
-   /* padding-top: 0.3rem; */
+ 
   }
 
   .app-skroll-part {
-    grid-area: contentt;
+   grid-row: 2;
     
 
   }
 
   .grid-header {
     grid-row: 1;
+    
 
   }
 
