@@ -27,6 +27,8 @@
 
 .grid-header {
   grid-area: h;
+  /* margin: 0;
+padding: 0; */
 
 }
 
@@ -121,16 +123,16 @@ overflow: scroll;
     margin-bottom: 0rem;
     margin-top: 0rem;
     width: 94vw ;
-/*    
+   
   grid-template-areas: 
   "header contentt ";
-  grid-template-rows: 5ch 1fr; */
+
   
 
   }
   .app-wrapper-content{
   
-   padding-top: 0.3rem;
+   /* padding-top: 0.3rem; */
   }
 
   .app-skroll-part {

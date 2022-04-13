@@ -11,6 +11,8 @@
   border-top-left-radius: 0.7rem;
   position: sticky;
     z-index: 100;
+    /* margin-bottom: 0;
+    padding-bottom: 0; */
   /* top: 1vh; */
   /* height: 2.8rem; */
 }
@@ -19,4 +21,35 @@
   height: 2.3rem;
   padding-top: 0.3rem;
   padding-left: 0.3rem;
+
+}
+
+@media screen and (min-width:750px) {
+ .menuButton{
+  display: none;
+} 
+}
+
+
+@media screen and (max-width: 750px) {
+ .header img{
+   /* margin-left: 90%; */
+   grid-area: i;
+  }
+  /* .container{
+    position: absolute; 
+  } */
+  .header{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-areas: "b . i";
+    grid-gap: 0rem;
+    align-items: center;
+  }
+  .menuButton{
+   grid-area: b;
+   background: black;
+   /* display: inline-block; */
+   /* align-items:flex-start; */
+  }
 }
