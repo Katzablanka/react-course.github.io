@@ -7,6 +7,15 @@ import { NavLink } from 'react-router-dom';
 import ListItemText from '@mui/material/ListItemText';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 
+// ///////////////////////
+import IconButton from '@mui/material/IconButton';
+
+const options = ['profile', 'messages', 'news', 'music', 'settings'];
+
+const ITEM_HEIGHT = 48;
+
+// //////////////////////
+
 const Header = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -25,7 +34,7 @@ const Header = () => {
           alt="logo"
         />
         <div className={s.menuButton}>
-          <Button
+          {/* <Button
             id="demo-positioned-button"
             aria-controls={open ? 'demo-positioned-menu' : undefined}
             aria-haspopup="true"
@@ -33,10 +42,20 @@ const Header = () => {
             onClick={handleClick}
           >
             <MoreVertIcon />
-          </Button>
+          </Button> */}
+          <IconButton
+            aria-label="more"
+            id="long-button"
+            aria-controls={open ? 'long-menu' : undefined}
+            aria-expanded={open ? 'true' : undefined}
+            aria-haspopup="true"
+            onClick={handleClick}
+          >
+            <MoreVertIcon />
+          </IconButton>
         </div>
       </header>
-
+      {/* 
       <Menu
         id="demo-positioned-menu"
         aria-labelledby="demo-positioned-button"
@@ -52,10 +71,7 @@ const Header = () => {
           horizontal: 'left',
         }}
       >
-        {/* <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>Messages</MenuItem>
-        <MenuItem onClick={handleClose}>News</MenuItem> */}
-        {/*  */}
+        
         <MenuItem onClick={handleClose}>
           <NavLink to="/profile">Profile</NavLink>
         </MenuItem>
@@ -73,7 +89,35 @@ const Header = () => {
             <NavLink to="/settings">Settings</NavLink>
           </ListItemText>
         </MenuItem>
-        {/*  */}
+    
+      </Menu> */}
+      <Menu
+        id="long-menu"
+        MenuListProps={{
+          'aria-labelledby': 'long-button',
+        }}
+        anchorEl={anchorEl}
+        open={open}
+        onClose={handleClose}
+        PaperProps={{
+          style: {
+            maxHeight: ITEM_HEIGHT * 4.5,
+            width: '20ch',
+          },
+        }}
+      >
+        {options.map((option) => (
+          <MenuItem
+            key={option}
+            selected={option === 'Pyxis'}
+            onClick={handleClose}
+          >
+            {/* {option} */}
+            <ListItemText>
+              <NavLink to={`/${option}`}>{option}</NavLink>
+            </ListItemText>
+          </MenuItem>
+        ))}
       </Menu>
     </div>
   );

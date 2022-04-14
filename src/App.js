@@ -26,7 +26,7 @@ const App = () => {
           <Header className="grid-header" />
         </div>
         <div className="grid-navbar">
-          <Navbar className="grid-navbar" />
+          <Navbar />
         </div>
         {/* <Header />
         <Navbar /> */}

@@ -111,10 +111,9 @@ overflow: scroll;
 
 
 @media screen and (max-width: 750px) {
-
+  .grid-navbar{display: none;}
   .app-wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
+    /* display: grid;
     grid-auto-rows: 5vh 1fr;
     grid-gap: 0rem;
     padding-top: 3vh;
@@ -122,12 +121,13 @@ overflow: scroll;
     margin-right: 3vw ;
     margin-bottom: 0rem;
     margin-top: 0rem;
-    width: 94vw ;
-   
+    width: 94vw ; */
+   /* //////////////////////////////////// */
   /* grid-template-areas: 
   "header contentt "; */
 
-  
+  display: flex;
+  flex-flow: column;
 
   }
   /* .app-wrapper-content{
@@ -136,13 +136,14 @@ overflow: scroll;
   } */
 
   .app-skroll-part {
-   grid-row: 2;
-    
+   /* grid-row: 2; */
+    flex: 2;
 
   }
 
   .grid-header {
-    grid-row: 1;
+    /* grid-row: 1; */
+    flex: 1;
     
 
   }
