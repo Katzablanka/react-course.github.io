@@ -48,22 +48,22 @@ const Navbar = () => {
       <Paper className={c.Paperr}>
         <MenuList className={c.navbar}>
           <MenuItem>
-            <NavLink to="/profile" activeClassName={c.active}>
+            <NavLink to="/profile" activeClassName={c.activeNav}>
               Profile
             </NavLink>
           </MenuItem>
           <MenuItem>
-            <NavLink to="/messages" activeClassName={c.active}>
+            <NavLink to="/messages" activeClassName={c.activeNav}>
               Messages
             </NavLink>
           </MenuItem>
           <MenuItem>
-            <NavLink to="/news" activeClassName={c.active}>
+            <NavLink to="/news" activeClassName={c.activeNav}>
               News
             </NavLink>
           </MenuItem>
           <MenuItem>
-            <NavLink to="/music" activeClassName={c.active}>
+            <NavLink to="/music" activeClassName={c.activeNav}>
               Music
             </NavLink>
           </MenuItem>

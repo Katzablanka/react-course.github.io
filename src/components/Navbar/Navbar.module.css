@@ -3,7 +3,7 @@
 
   .Paperr {
     display: none;
-    grid-area: nichts;
+    /* grid-area: nichts; */
  
   }
 }
@@ -22,7 +22,7 @@
 }
 
 .Paperr{
-  grid-area: n;
+  /* grid-area: n; */
   position:sticky;
   /* top: 3.6em; */
   z-index: 100;
@@ -51,7 +51,7 @@ a {
   height: 100%;
 }
 
-a.active {
+.activeNav {
  
   text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 15px rgb(35, 228, 160),
     0 0 30px rgb(69, 165, 250), 0 0 20px rgb(9, 250, 182),
@@ -59,7 +59,7 @@ a.active {
     0 0 50px rgb(27, 214, 252), 0 0 75px rgb(0, 213, 255);
 }
 
-a:hover {
+ .activeNav + a:hover {
  
   text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(35, 228, 160),
     0 0 15px rgb(69, 165, 250), 0 0 20px rgb(9, 250, 182),
