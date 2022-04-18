@@ -14,11 +14,11 @@ const Post = (props) => {
           <h4>{props.like}</h4>
         </span>
       </div> */}
-      <Grid container spacing={1}>
+      <Grid container spacing={0.5} alignItems="center">
         <Grid item xs={1}>
           <Avatar
-            className={s.comentAva}
             src="https://img-fotki.yandex.ru/get/9227/50652515.11/0_9f830_e9979222_L.jpg"
+            sx={{ width: 40, height: 40 }}
           ></Avatar>
         </Grid>
         <Grid item xs={11}>

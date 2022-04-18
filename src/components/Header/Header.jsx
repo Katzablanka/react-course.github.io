@@ -12,7 +12,7 @@ import IconButton from '@mui/material/IconButton';
 
 const options = ['profile', 'messages', 'news', 'music', 'settings'];
 
-const ITEM_HEIGHT = 48;
+const ITEM_HEIGHT = 45;
 
 // //////////////////////
 
